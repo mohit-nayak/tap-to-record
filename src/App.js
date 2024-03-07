@@ -107,7 +107,7 @@ function App() {
 		<div className="app" id="app">
 			<div className="word-wrapper">
 				<div className="left">
-					<img src={speakerImg} className="word-icon" />
+					<img src={speakerImg} className="word-icon" alt="Speak icon" />
 					<span>{currentSentence}</span>
 				</div>
 				<div className="right">
@@ -116,6 +116,7 @@ function App() {
 						className="refresh-icon"
 						title="Refresh Sentence"
 						onClick={refreshSentence}
+						alt="Shuffle"
 					/>
 				</div>
 			</div>
@@ -126,11 +127,13 @@ function App() {
 						src={stopRecordingImg}
 						className="stop-icon"
 						onClick={stopRecording}
+						alt="Stop recording"
 					/>
 					<img
 						src={recordImg}
 						className={`record-icon ${isRecording ? "hide" : ""}`}
 						onClick={startRec}
+						alt="Start recording"
 					/>
 				</div>
 				<p className="status">
