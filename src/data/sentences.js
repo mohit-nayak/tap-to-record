@@ -19,7 +19,7 @@ const sentences = [
 	"Laa Javaab",
 	"Kyaa soch",
 	"Subhaan allaah",
-	"Maash-allaah"
+	"Maash-allaah",
 ];
 
 export default sentences;
