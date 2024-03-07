@@ -1,7 +1,7 @@
 ## Speak to record
 
 # Demo link
-tap-to-record-c490d.web.app
+[Tap to record](https://tap-to-record.web.app)
 
 ## Getting Started with Create React App
 
