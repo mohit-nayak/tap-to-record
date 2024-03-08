@@ -51,7 +51,7 @@ function App() {
 
 	const submitAudio = () => {
 		const filename =
-			slugify(currentSentence) + "-" + new Date().getTime() + ".webm";
+			slugify(currentSentence) + "-" + new Date().getTime() + ".wav";
 		const storageRef = ref(storage, "audios/" + filename);
 		const uploadTask = uploadBytesResumable(storageRef, audioBlob.blob);
 
